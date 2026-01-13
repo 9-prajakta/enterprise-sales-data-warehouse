@@ -1,0 +1,8 @@
+CREATE SCHEMA SALES_DWH.DIM;
+
+CREATE TABLE DIM_CUSTOMER (
+    customer_key NUMBER AUTOINCREMENT PRIMARY KEY,
+    customer_id STRING,
+    customer_name STRING,
+    region STRING
+);
